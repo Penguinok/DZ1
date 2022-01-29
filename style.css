@@ -21,6 +21,32 @@ ul, ol {
     margin: 0;
     padding: 0;
 }
+h1, h2, h3 {
+    margin: 0;
+
+}
+h1 {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+/* or 136% */
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+background-color: ;
+
+color: #FFFFFF;
+}
+.work__title {
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+text-transform: uppercase;
+
+
+}
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -53,4 +79,20 @@ ul, ol {
 }
 .contactlink:hover {
     color: #2196F3;;
+}
+.buy__us {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+/* identical to box height, or 187% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #FFFFFF
+}
+.span footer {
+    list-style: none;
 }
