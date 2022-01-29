@@ -4,7 +4,7 @@ footer {
 address {
     color: #FFFFFF;
 }
-.h2__add{
+.add{
     color: #FFFFFF;
 }
 
@@ -25,11 +25,10 @@ h1, h2, h3 {
     margin: 0;
 
 }
-h1 {
+.business {
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
-/* or 136% */
 
 text-align: center;
 letter-spacing: 0.06em;
@@ -42,7 +41,6 @@ color: #FFFFFF;
 font-weight: 700;
 font-size: 14px;
 line-height: 16px;
-text-align: center;
 text-transform: uppercase;
 
 
@@ -59,32 +57,31 @@ text-transform: uppercase;
     color: #2196F3;
 }
 
-.navlink {
+.nav__link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
 }
-.navlink:hover {
+.nav__link:hover {
     color: #2196F3;
 }
 
-.contactlink {
+.contact__link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
 }
-.contactlink:hover {
+.contact__link:hover {
     color: #2196F3;;
 }
 .buy__us {
 font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
-/* identical to box height, or 187% */
 
 display: flex;
 align-items: center;
@@ -95,4 +92,7 @@ color: #FFFFFF
 }
 .span footer {
     list-style: none;
+}
+my-team__title {
+    
 }
