@@ -1,50 +1,29 @@
-footer {
-    background-color: #2F303A;
-}
-address {
-    color: #FFFFFF;
-}
-.add{
-    color: #FFFFFF;
-}
 
 body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     letter-spacing: 0.03em;
 }
-a {
-    text-decoration: none;
+footer {
+    background-color: #2F303A;
+}
+address {
+    color: #FFFFFF;
 }
 ul, ol {
     list-style: none;
     margin: 0;
     padding: 0;
 }
+a {
+    text-decoration: none;
+}
 h1, h2, h3 {
     margin: 0;
 
 }
-.business {
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-background-color: ;
-
-color: #FFFFFF;
-}
-.work__title {
-font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-text-transform: uppercase;
 
 
-}
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -56,7 +35,6 @@ text-transform: uppercase;
 .logo span {
     color: #2196F3;
 }
-
 .nav__link {
     font-weight: 500;
     font-size: 14px;
@@ -67,7 +45,6 @@ text-transform: uppercase;
 .nav__link:hover {
     color: #2196F3;
 }
-
 .contact__link {
     font-weight: 500;
     font-size: 14px;
@@ -78,21 +55,97 @@ text-transform: uppercase;
 .contact__link:hover {
     color: #2196F3;;
 }
-.buy__us {
-font-weight: 700;
-font-size: 16px;
-line-height: 1.87;
 
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
+.business {
+    background: #2F303A;
+}
+.business__title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.business__buy-us {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    /* display: flex;
+    align-items: center;
+    text-align: center; */
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
 
-color: #FFFFFF
+.idea__name {
+    font-weight: 700;
+    font-size: 14px;
+line-height: 1.14;
+    text-transform: uppercase;
+    color: #212121;
 }
-.span footer {
-    list-style: none;
+.idea__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #757575;
 }
-my-team__title {
-    
+
+.work__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: #212121;
+}
+
+.my-team__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: #212121;
+}
+.my-team__name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    color: #212121;
+
+}
+.my-team__role {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    color: #757575;
+}
+
+.logo-white {
+    color: #FFFFFF;
+}
+.address__location {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #FFFFFF;
+}
+
+
+.portfolio__nav {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.project__text {
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
+    color: #212121;
 }
