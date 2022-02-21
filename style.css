@@ -4,6 +4,7 @@ body {
     font-style: normal;
     letter-spacing: 0.03em;
 }
+
 footer {
     background-color: #2F303A;
 }
@@ -22,9 +23,22 @@ h1, h2, h3 {
     margin: 0;
 
 }
+.section {
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid red;
+    padding: 94px 200px;
+}
+.container {
+     padding: 0 15px;
+}
 
 
-
+.header {
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -35,6 +49,16 @@ h1, h2, h3 {
 .logo span {
     color: #2196F3;
 }
+.header__nav {
+    margin-left: 93px;
+    margin-right: auto;
+}
+.nav__list {
+    display: flex;
+}
+.nav__elem:not(:last-child) {
+    margin-right: 50px ; 
+}
 .nav__link {
     font-weight: 500;
     font-size: 14px;
@@ -44,6 +68,12 @@ h1, h2, h3 {
 }
 .nav__link:hover {
     color: #2196F3;
+}
+.header__contact {
+    display: flex;
+}
+.contact__list:not(:last-child) {
+    margin-right: 50px ;
 }
 .contact__link {
     font-weight: 500;
